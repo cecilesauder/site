@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.105.0">
+
+  <title>Wordcloud pour illustrer un article &middot; Saut d&#39;R</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cecilesauder.netlify.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cecilesauder.netlify.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://cecilesauder.netlify.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://cecilesauder.netlify.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://cecilesauder.netlify.com/">Saut d'R</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://cecilesauder.netlify.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://cecilesauder.netlify.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://cecilesauder.netlify.com/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://cecilesauder.netlify.com/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://cecilesauder.netlify.com/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://cecilesauder.netlify.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/cecilesauder" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/bubububulle" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/cecilesauder" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/cecilesauder" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+</div>
+<div class="content">
+  <h1 class="myheader">Wordcloud pour illustrer un article</h1>
+  <h2 class="myheader"></h2>
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>02 Feb 2023</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://cecilesauder.netlify.com/topics/dataviz">DataViz</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="https://cecilesauder.netlify.com/topics/text-analysis">Text Analysis</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://cecilesauder.netlify.com/tags/wordcloud2">wordcloud2</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://cecilesauder.netlify.com/tags/tidytext">tidytext</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <h3 id="librairies">Librairies</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(tidyverse)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(tidytext)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(pdftools)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(proustr)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(stopwords)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(<span style="color:#e6db74">&#34;mixr&#34;</span>) <span style="color:#75715e"># Lise Vaudor package</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(magick)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(wordcloud2)
+</span></span></code></pre></div><h2 id="récupérer-le-texte-du-pdf">Récupérer le texte du PDF</h2>
+<p>Avec la fonction <em>pdf_text</em> du package <em>pdf_tools</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>txt <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">pdf_text</span>(<span style="color:#e6db74">&#34;Article Revue Balisages_Joëlle Le Marec et Eva Sandri_25 octobre 2022.pdf&#34;</span>)
+</span></span></code></pre></div><p>On obtient ainsi un <em>chr</em> de 17 éléments (correspondants aux 17 pages)</p>
+<p>Une question se pose, qu&rsquo;est ce que je garde, pourquoi, comment ?</p>
+<p>Est ce que j&rsquo;enlève titre et abstract ? noms d&rsquo;autrice, biblio ?</p>
+<p>L&rsquo;abstract en anglais ça me parait évident, je vais aussi virer la biblio mais
+pas les noms.</p>
+<p>J&rsquo;en profite pour enlever les 2 pages de bibliographie, c&rsquo;est pourquoi je ne
+garde que <em>txt[1:15]</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>zz <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">textConnection</span>(txt[1<span style="color:#f92672">:</span><span style="color:#ae81ff">15</span>])  <span style="color:#75715e">#enleve page 16 et 17</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rl <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">readLines</span>(zz) <span style="color:#75715e"># lit toutes les lignes (803)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>tib<span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">tibble</span>(txt <span style="color:#f92672">=</span> rl,
+</span></span><span style="display:flex;"><span>             lignes <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#a6e22e">length</span>(rl)) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">filter</span>(<span style="color:#f92672">!</span>lignes <span style="color:#f92672">%in%</span> <span style="color:#ae81ff">30</span><span style="color:#f92672">:</span><span style="color:#ae81ff">47</span>)  <span style="color:#75715e">#J&#39;enleve seulement l&#39;abstract (lignes 30 à 47)</span>
+</span></span></code></pre></div><p>On a maintenant un tableau <em>tib</em> qui contient une colonne <em>txt</em> avec du texte
+et une colonne <em>lignes</em>, avec le numéro de ligne associé (de 1 à 785)</p>
+<h2 id="nettoyage-du-texte">Nettoyage du texte</h2>
+<div class="tenor-gif-embed" data-postid="4365544" data-share-method="host" data-aspect-ratio="1.39276" data-width="100%"><a href="https://tenor.com/view/sponge-bob-cartoons-cleaning-clean-cl-gif-4365544">Clean All The Things!!!! GIF</a>from <a href="https://tenor.com/search/sponge+bob-gifs">Sponge Bob GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<p>C&rsquo;est la partie laborieuse, je remplace les apostrophes, les chiffres, les liens
+internet, etc&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>tib <span style="color:#f92672">&lt;-</span> tib <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mutate</span>(txt <span style="color:#f92672">=</span> txt <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">str_replace_all</span>(pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;’|&#39;&#34;</span>, replacement <span style="color:#f92672">=</span>  <span style="color:#e6db74">&#34; &#34;</span>) <span style="color:#f92672">%&gt;%</span> <span style="color:#75715e">#remplace apostrophe par espace</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">str_replace_all</span>(pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;\\d&#34;</span>, replacement <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>) <span style="color:#f92672">%&gt;%</span> <span style="color:#75715e"># remplace un chiffre par un espace</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">str_remove_all</span>(<span style="color:#e6db74">&#34;http\\S*&#34;</span>) <span style="color:#f92672">%&gt;%</span> <span style="color:#75715e"># enlève tout ce qui commence par http</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">str_remove_all</span>(<span style="color:#e6db74">&#34;\\S*@\\S*&#34;</span>)) <span style="color:#f92672">%&gt;%</span> <span style="color:#75715e"># enlève tout ce qui contient @</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">unnest_tokens</span>(output <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;word&#34;</span>,
+</span></span><span style="display:flex;"><span>                input <span style="color:#f92672">=</span> txt,
+</span></span><span style="display:flex;"><span>                token <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;words&#34;</span>,
+</span></span><span style="display:flex;"><span>                format <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;text&#34;</span>) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">str_length</span>(word) <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>) <span style="color:#75715e">#enleve tous les trucs de taille 1, chiffre ou character</span>
+</span></span></code></pre></div><p>J&rsquo;ai maintenant un tableau <em>tib</em> de deux colonnes, <em>lignes</em> qui contient le
+numéro de la ligne et <em>word</em> qui contient des mots (un par ligne).
+Ce tableau contient 6526 lignes.</p>
+<h3 id="gestion-des-stopwords-mots-vides-de-sens">Gestion des stopwords (mots vides de sens)</h3>
+<p>J&rsquo;ai utilisé ici les packages <strong>proustr</strong>, <strong>stopwrds</strong> et <strong>mixr</strong> (de Lise
+Vaudor)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>tib <span style="color:#f92672">&lt;-</span> tib <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">filter</span>(<span style="color:#f92672">!</span>word <span style="color:#f92672">%in%</span> <span style="color:#a6e22e">proust_stopwords</span>()) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">filter</span>(<span style="color:#f92672">!</span>word <span style="color:#f92672">%in%</span> <span style="color:#a6e22e">stopwords</span>(<span style="color:#e6db74">&#34;fr&#34;</span>, source <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;stopwords-iso&#34;</span>))
+</span></span></code></pre></div><p>Il ne reste plus que 2971 mots qui ont du sens. Parmi ces mots ils y a bien
+sûr des adjectifs, noms, verbes&hellip; des singulier et des pluriels, que l&rsquo;on
+voudrait regrouper.</p>
+<p>J&rsquo;utilise le lexique 382 du package <em>mixr</em>,  qui contient 125721 observations,
+j&rsquo;ai essayé avec un lexique un peu plus récent (le 383) mais ça n&rsquo;était pas
+vraiment mieux.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>lexique382<span style="color:#f92672">=</span>mixr<span style="color:#f92672">::</span><span style="color:#a6e22e">get_lexicon</span>(<span style="color:#e6db74">&#34;fr&#34;</span>)
+</span></span><span style="display:flex;"><span>dplyr<span style="color:#f92672">::</span><span style="color:#a6e22e">sample_n</span>(lexique382,<span style="color:#ae81ff">10</span>)
+</span></span></code></pre></div><pre tabindex="0"><code>## # A tibble: 10 × 3
+##    word           lemma        type 
+##    &lt;chr&gt;          &lt;chr&gt;        &lt;chr&gt;
+##  1 mourante       mourant      adj  
+##  2 biographes     biographe    nom  
+##  3 poétiquement   poétiquement adv  
+##  4 traduis        traduire     ver  
+##  5 beigne         beigne       nom  
+##  6 demandant      demander     ver  
+##  7 mûriraient     mûrir        ver  
+##  8 étourdissantes étourdissant adj  
+##  9 danseras       danser       ver  
+## 10 souviendrais   souvenir     ver
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>tib_non_vides <span style="color:#f92672">&lt;-</span> tib <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">left_join</span>(lexique382) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mutate</span>(word <span style="color:#f92672">=</span> <span style="color:#a6e22e">if_else</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">is.na</span>(lemma),
+</span></span><span style="display:flex;"><span>    word,
+</span></span><span style="display:flex;"><span>    lemma)) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">select</span>(lignes, word)
+</span></span></code></pre></div><pre tabindex="0"><code>## Joining, by = &#34;word&#34;
+</code></pre><p>Je calcule ensuite la fréquence d&rsquo;apparition de chaque mot</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>mot_freq<span style="color:#f92672">&lt;-</span> tib_non_vides <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">count</span>(word, sort <span style="color:#f92672">=</span> <span style="color:#66d9ef">TRUE</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>mot_freq
+</span></span></code></pre></div><pre tabindex="0"><code>## # A tibble: 1,256 × 2
+##    word             n
+##    &lt;chr&gt;        &lt;int&gt;
+##  1 savoir          40
+##  2 pratique        33
+##  3 public          26
+##  4 conversation    24
+##  5 féministe       24
+##  6 espace          21
+##  7 lieu            21
+##  8 collectif       20
+##  9 cours           20
+## 10 étudiant        19
+## # … with 1,246 more rows
+</code></pre><h2 id="wordcloud">Wordcloud</h2>
+<p>J&rsquo;utilise ici le package <em>wordcloud2</em> qui permet de choisir la forme de nuage
+que l&rsquo;on souhaite, comme j&rsquo;avais fait dans le précédent post avec une forme de
+canard.</p>
+<p>C&rsquo;est un article sur le féminisme, donc j&rsquo;ai choisi cette image symbolique pour
+la forme du nuage.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">image_read</span>(<span style="color:#e6db74">&#34;feminism.jpg&#34;</span>) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">image_scale</span>(<span style="color:#e6db74">&#34;200x&#34;</span>)
+</span></span></code></pre></div><img src="https://cecilesauder.netlify.com/post/2023-02-02-wordcloud-pour-illustrer-un-article/index_files/figure-html/unnamed-chunk-8-1.png" width="100" />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>mot_freq <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">wordcloud2</span>(figPath <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;feminism.jpg&#34;</span>,
+</span></span><span style="display:flex;"><span>             widgetsize <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">820</span>,<span style="color:#ae81ff">1382</span>),
+</span></span><span style="display:flex;"><span>             color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;purple&#34;</span>)
+</span></span></code></pre></div><p>La fonction est souvent longue pour afficher le wordcloud donc je n&rsquo;éxecute
+pas le code précédent mais ça donnera comme résultat qqchose comme ça (les mots
+sont placés aléatoirement mais leur taille dépend de leur fréquence donc ne
+changera pas).
+Ce qu&rsquo;il y a d&rsquo;intéressant dans la version HTML, même si elle est parfois un peu
+longue à charger, c&rsquo;est qu&rsquo;elle est interactive et permet donc de savoir le nombre
+d&rsquo;occurrence d&rsquo;un mot en passant la souris dessus.</p>
+<p><img src="eva.png" alt=""></p>
+<p>Et voilà !</p>
+
+
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fcecilesauder.netlify.com%2fpost%2f2023-02-02-wordcloud-pour-illustrer-un-article%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fcecilesauder.netlify.com%2fpost%2f2023-02-02-wordcloud-pour-illustrer-un-article%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fcecilesauder.netlify.com%2fpost%2f2023-02-02-wordcloud-pour-illustrer-un-article%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fcecilesauder.netlify.com%2fpost%2f2023-02-02-wordcloud-pour-illustrer-un-article%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fcecilesauder.netlify.com%2fpost%2f2023-02-02-wordcloud-pour-illustrer-un-article%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fcecilesauder.netlify.com%2fpost%2f2023-02-02-wordcloud-pour-illustrer-un-article%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://cecilesauder.netlify.com/post/2022-11-25-la-gazette-mon-petit-canard-concours/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://cecilesauder.netlify.com/post/2022-11-25-la-gazette-mon-petit-canard-concours/">La Gazette, mon petit canard : Concours</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://cecilesauder.netlify.com/post/2023-03-26-livecoding-avec-supercolider-et-foxdot/">Livecoding avec SuperColider et FoxDot</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://cecilesauder.netlify.com/post/2023-03-26-livecoding-avec-supercolider-et-foxdot/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'cecilesauder';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://cecilesauder.netlify.com/js/ui.js"></script>
+<script src="https://cecilesauder.netlify.com/js/menus.js"></script>
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=Your%20Google%20Analytics%20tracking%20ID"></script>
+<script>
+  
+  if (window.location.hostname != "localhost") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'Your Google Analytics tracking ID');
+  }
+</script>
+
+
+
+
+
+
+<script src="https://cecilesauder.netlify.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+

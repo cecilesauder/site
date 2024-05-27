@@ -2,28 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cecilesauder.netlify.com/tags/foxdot/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/hackerspace/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/livecoding/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/post/2023-03-26-livecoding-avec-supercolider-et-foxdot/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/post/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/python/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/supercolider/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/tidytext/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/post/2023-02-02-wordcloud-pour-illustrer-un-article/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/wordcloud2/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/post/2022-11-25-la-gazette-mon-petit-canard-concours/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/magick/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/rtweet/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cecilesauder.netlify.com/tags/tidyverse/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cecilesauder.netlify.com/post/2022-11-09-imprimer-4-images-en-portrait-sur-un-a4/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cecilesauder.netlify.com/post/</loc>
-    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cecilesauder.netlify.com/</loc>
-    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+    <loc>https://cecilesauder.netlify.com/tags/blogdown/</loc>
+    <lastmod>2022-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cecilesauder.netlify.com/post/2022-11-05-come-back/</loc>
     <lastmod>2022-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cecilesauder.netlify.com/tags/comeback/</loc>
-    <lastmod>2022-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cecilesauder.netlify.com/tags/</loc>
+    <loc>https://cecilesauder.netlify.com/tags/github/</loc>
     <lastmod>2022-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cecilesauder.netlify.com/post/2019-02-23-analysis-of-umbrella-academy-s-scripts-part-1/</loc>
-    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cecilesauder.netlify.com/tags/tidytext/</loc>
     <lastmod>2019-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cecilesauder.netlify.com/tags/rvest/</loc>
@@ -38,25 +77,16 @@
     <loc>https://cecilesauder.netlify.com/tags/slides/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cecilesauder.netlify.com/tags/tidyverse/</loc>
-    <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cecilesauder.netlify.com/tags/xaringan/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cecilesauder.netlify.com/post/amstrdays-s-tweets/</loc>
+    <loc>https://cecilesauder.netlify.com/post/2018-11-18-amstrday-s-tweets/</loc>
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cecilesauder.netlify.com/tags/ggplot2/</loc>
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cecilesauder.netlify.com/tags/magick/</loc>
-    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cecilesauder.netlify.com/tags/rtweet/</loc>
-    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cecilesauder.netlify.com/post/playing-with-dplyr5000-part-1/</loc>
+    <loc>https://cecilesauder.netlify.com/post/2018-10-21-playing-with-dplyr5000-part-1/</loc>
     <lastmod>2018-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cecilesauder.netlify.com/tags/gganimate/</loc>
@@ -65,7 +95,7 @@
     <loc>https://cecilesauder.netlify.com/tags/ggimage/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cecilesauder.netlify.com/post/making-an-animated-ggplot/</loc>
+    <loc>https://cecilesauder.netlify.com/post/2018-10-14-making-an-animated-ggplot/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cecilesauder.netlify.com/about/</loc>

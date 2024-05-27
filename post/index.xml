@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Livecoding avec SuperColider et FoxDot</title>
+      <link>https://cecilesauder.netlify.com/post/2023-03-26-livecoding-avec-supercolider-et-foxdot/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/2023-03-26-livecoding-avec-supercolider-et-foxdot/</guid>
+      <description>HEY ! Me revoilà pour un post sans Le LiveCoding c&amp;rsquo;est quoi ? J&amp;rsquo;ai découvert le LiveCoding aux universités d&amp;rsquo;hiver du Bib, en février, grâce à un atelier d&amp;rsquo;initiation à la musique algorythmique où j&amp;rsquo;ai découvert SuperCollider et FoxDot et un autre de LiveCoding collaboratif.
+Du coup le principe c&amp;rsquo;est de coder de la musique voilà tout est dit au revoir fin du post lol non non je déconne j&amp;rsquo;ai fait deux ateliers, un avec Nina et l&amp;rsquo;autre Ellie, faudra que je retrouve les noms et liens, bon on attaque !</description>
+    </item>
+    
+    <item>
+      <title>Wordcloud pour illustrer un article</title>
+      <link>https://cecilesauder.netlify.com/post/2023-02-02-wordcloud-pour-illustrer-un-article/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/2023-02-02-wordcloud-pour-illustrer-un-article/</guid>
+      <description>Librairies library(tidyverse) library(tidytext) library(pdftools) library(proustr) library(stopwords) library(&amp;#34;mixr&amp;#34;) # Lise Vaudor package library(magick) library(wordcloud2) Récupérer le texte du PDF Avec la fonction pdf_text du package pdf_tools
+txt &amp;lt;- pdf_text(&amp;#34;Article Revue Balisages_Joëlle Le Marec et Eva Sandri_25 octobre 2022.pdf&amp;#34;) On obtient ainsi un chr de 17 éléments (correspondants aux 17 pages)
+Une question se pose, qu&amp;rsquo;est ce que je garde, pourquoi, comment ?
+Est ce que j&amp;rsquo;enlève titre et abstract ? noms d&amp;rsquo;autrice, biblio ?</description>
+    </item>
+    
+    <item>
+      <title>La Gazette, mon petit canard : Concours</title>
+      <link>https://cecilesauder.netlify.com/post/2022-11-25-la-gazette-mon-petit-canard-concours/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/2022-11-25-la-gazette-mon-petit-canard-concours/</guid>
+      <description>Concours de la Gazette de Montpellier Le jeu-concours : racontez-nous, sur le thème “La Gazette, mon petit canard”, une histoire ou anecdote que vous inspire La Gazette : texte (court), poème, chanson, vidéo, rap, histoire drôle, tableau, sculpture…
+Laissez parler votre créativité. Les créations les plus originales, amusantes, pertinentes, émouvantes, acides, délirantes,… gagneront l’un des 35 lots. Surprenez-nous !
+Envoyez votre production (texte, vidéo, photo, etc.) par mail à jb.</description>
+    </item>
+    
     <item>
       <title>Imprimer 4 images en portrait sur un A4</title>
       <link>https://cecilesauder.netlify.com/post/2022-11-09-imprimer-4-images-en-portrait-sur-un-a4/</link>
@@ -20,12 +53,12 @@ On commence par lire l&amp;rsquo;image (1.png c&amp;rsquo;est la sortie Canva jm
     </item>
     
     <item>
-      <title>Come back...</title>
+      <title>Come back... in French :P</title>
       <link>https://cecilesauder.netlify.com/post/2022-11-05-come-back/</link>
       <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://cecilesauder.netlify.com/post/2022-11-05-come-back/</guid>
-      <description>Mise à jour Voilà, voilà, depuis le dernier post y a 4 ans il s&amp;rsquo;est passé beaucoup de choses, je mettrais le &amp;ldquo;About&amp;rdquo; à jour parcequ&amp;rsquo;il est vraiment à revoir :&amp;lsquo;D
+      <description>Mise à jour Voilà, voilà, depuis le dernier post y a 4 ans il s&amp;rsquo;est passé beaucoup de choses, je mettrais le &amp;ldquo;About&amp;rdquo; à jour parcequ&amp;rsquo;il est vraiment à revoir 😅
 J&amp;rsquo;ai carrément tout repris à zero, crée un nouveau repo Github.
 J&amp;rsquo;ai donc recrée un blog tout vide, puis tenté d&amp;rsquo;avoir le même aspect que l&amp;rsquo;ancien&amp;hellip; Nous voilà donc 2 jours plus tard 😅
 Si tu veux plus de détails tu peux aller voir les 25 commits que j&amp;rsquo;ai fait pour en arriver là 😅</description>
@@ -68,20 +101,20 @@ And I&amp;rsquo;m going to write a post very soon with some useful tips for maki
     
     <item>
       <title>AmstRday&#39;s tweets</title>
-      <link>https://cecilesauder.netlify.com/post/amstrdays-s-tweets/</link>
+      <link>https://cecilesauder.netlify.com/post/2018-11-18-amstrday-s-tweets/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://cecilesauder.netlify.com/post/amstrdays-s-tweets/</guid>
+      <guid>https://cecilesauder.netlify.com/post/2018-11-18-amstrday-s-tweets/</guid>
       <description>These lines of code have been lying around in a file for more than 2 months. I wrote them after SatRdays Amsterdam in September.
 Packages installation library(tidyverse) library(rtweet) library(knitr) library(kableExtra) library(ggiraph) library(magick) library(tidytext) library(wordcloud) library(widyr) library(igraph) library(ggraph) library(ggmap) library(maps) library(plotly) Scraping the tweets # rt_AmsteRday &amp;lt;- search_tweets( # &amp;#34;#AmsteRday&amp;#34;, n = 2, include_rts = FALSE # ) # rt &amp;lt;- rt_AmsteRday # # vect &amp;lt;- c(&amp;#34;#AmstRday&amp;#34;, &amp;#34;#satRday&amp;#34;, &amp;#34;#satRdays&amp;#34;, &amp;#34;#satRdayAMS&amp;#34;, &amp;#34;#satRdaysAMS&amp;#34;) # # for( vec in vect){ # # rt_vec &amp;lt;- search_tweets( # vec, n = 18000, include_rts = FALSE # ) # rt &amp;lt;- bind_rows(rt, rt_vec) # } # # # rt &amp;lt;- rt %&amp;gt;% # unique() # # saveRDS(rt, &amp;#34;conttweets.</description>
     </item>
     
     <item>
       <title>Playing with dplyr5000 - Part 1</title>
-      <link>https://cecilesauder.netlify.com/post/playing-with-dplyr5000-part-1/</link>
+      <link>https://cecilesauder.netlify.com/post/2018-10-21-playing-with-dplyr5000-part-1/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://cecilesauder.netlify.com/post/playing-with-dplyr5000-part-1/</guid>
+      <guid>https://cecilesauder.netlify.com/post/2018-10-21-playing-with-dplyr5000-part-1/</guid>
       <description>dplyr5000 is a data package with the 5000 first travis builds of dplyr. I would like to make a beautiful barplot with these data, inspired by this tweet from Mara Averick.
 📷 Further adventures in ggplot2 x-axis image labels…
 &amp;quot;Images as x-axis labels (updated)&amp;quot; ✏️ @carroll_jono
@@ -91,10 +124,10 @@ Packages installation library(tidyverse) library(rtweet) library(knitr) library(
     
     <item>
       <title>Making an animated ggplot</title>
-      <link>https://cecilesauder.netlify.com/post/making-an-animated-ggplot/</link>
+      <link>https://cecilesauder.netlify.com/post/2018-10-14-making-an-animated-ggplot/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://cecilesauder.netlify.com/post/making-an-animated-ggplot/</guid>
+      <guid>https://cecilesauder.netlify.com/post/2018-10-14-making-an-animated-ggplot/</guid>
       <description>I decide to talk about how I make my awesome blog banner in this first post. 😄
 Why this banner ? It&amp;rsquo;s a french wordplay with my family name Sauder =&amp;gt; Saut d&amp;rsquo;R (R jump in english). That&amp;rsquo;s why I decided to make a banner with the R-logo jumping on some (so cool) stickers. I choose stickers of packages that I use to do this animated ggplot.
 Which packages ? library(tidyverse) # install.</description>
