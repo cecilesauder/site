@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggplot2 on Saut d&#39;R</title>
+    <link>https://cecilesauder.netlify.com/tags/ggplot2/</link>
+    <description>Recent content in ggplot2 on Saut d&#39;R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 18 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/tags/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AmstRday&#39;s tweets</title>
+      <link>https://cecilesauder.netlify.com/post/amstrdays-s-tweets/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/amstrdays-s-tweets/</guid>
+      <description>These lines of code have been lying around in a file for more than 2 months. I wrote them after SatRdays Amsterdam in September.
+Packages installation library(tidyverse) library(rtweet) library(knitr) library(kableExtra) library(ggiraph) library(magick) library(tidytext) library(wordcloud) library(widyr) library(igraph) library(ggraph) library(ggmap) library(maps) library(plotly) Scraping the tweets # rt_AmsteRday &amp;lt;- search_tweets( # &amp;#34;#AmsteRday&amp;#34;, n = 2, include_rts = FALSE # ) # rt &amp;lt;- rt_AmsteRday # # vect &amp;lt;- c(&amp;#34;#AmstRday&amp;#34;, &amp;#34;#satRday&amp;#34;, &amp;#34;#satRdays&amp;#34;, &amp;#34;#satRdayAMS&amp;#34;, &amp;#34;#satRdaysAMS&amp;#34;) # # for( vec in vect){ # # rt_vec &amp;lt;- search_tweets( # vec, n = 18000, include_rts = FALSE # ) # rt &amp;lt;- bind_rows(rt, rt_vec) # } # # # rt &amp;lt;- rt %&amp;gt;% # unique() # # saveRDS(rt, &amp;#34;conttweets.</description>
+    </item>
+    
+    <item>
+      <title>Playing with dplyr5000 - Part 1</title>
+      <link>https://cecilesauder.netlify.com/post/playing-with-dplyr5000-part-1/</link>
+      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/playing-with-dplyr5000-part-1/</guid>
+      <description>dplyr5000 is a data package with the 5000 first travis builds of dplyr. I would like to make a beautiful barplot with these data, inspired by this tweet from Mara Averick.
+📷 Further adventures in ggplot2 x-axis image labels…
+&amp;quot;Images as x-axis labels (updated)&amp;quot; ✏️ @carroll_jono
+&amp;quot;photo alignment with graph in r&amp;quot; (SO answer) @ClausWilkehttps://t.co/p8Tvs4sghn #rstats #dataviz /* ⛹️📊 atrocities mine, obvs */ pic.twitter.com/Wew5Wo9q4f
+&amp;mdash; Mara Averick (@dataandme) October 11, 2018 Packages gh allows to get data from github.</description>
+    </item>
+    
+    <item>
+      <title>Making an animated ggplot</title>
+      <link>https://cecilesauder.netlify.com/post/making-an-animated-ggplot/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/making-an-animated-ggplot/</guid>
+      <description>I decide to talk about how I make my awesome blog banner in this first post. 😄
+Why this banner ? It&amp;rsquo;s a french wordplay with my family name Sauder =&amp;gt; Saut d&amp;rsquo;R (R jump in english). That&amp;rsquo;s why I decided to make a banner with the R-logo jumping on some (so cool) stickers. I choose stickers of packages that I use to do this animated ggplot.
+Which packages ? library(tidyverse) # install.</description>
+    </item>
+    
+  </channel>
+</rss>

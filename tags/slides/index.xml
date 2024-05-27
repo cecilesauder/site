@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>slides on Saut d&#39;R</title>
+    <link>https://cecilesauder.netlify.com/tags/slides/</link>
+    <description>Recent content in slides on Saut d&#39;R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 12 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/tags/slides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R-Ladies Meetup</title>
+      <link>https://cecilesauder.netlify.com/post/2019-02-12-r-ladies-meetup/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/2019-02-12-r-ladies-meetup/</guid>
+      <description>R-Ladies Montpellier meetups Since december 2018, I co-organise with Criscely the R-Ladies Montpellier meetups.
+You can follow R-Ladies Montpellier on twitter and github.
+Here are my slides, made with xaringan and the R-Ladies theme:
+Meetup 1 : little talk about Tidyverse : Meetup 2 : Let&amp;rsquo;s code TogetheR - Tidyverse Exercises : You can find the complete code of the slides here.
+And I&amp;rsquo;m going to write a post very soon with some useful tips for making xaringan slides, like how to make header and footer, how to insert interactive plots made with plotly or gganimate.</description>
+    </item>
+    
+  </channel>
+</rss>
