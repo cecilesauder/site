@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Saut d&#39;R</title>
+    <link>https://cecilesauder.netlify.com/tags/python/</link>
+    <description>Recent content in python on Saut d&#39;R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Livecoding avec SuperColider et FoxDot</title>
+      <link>https://cecilesauder.netlify.com/post/2023-03-26-livecoding-avec-supercolider-et-foxdot/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/2023-03-26-livecoding-avec-supercolider-et-foxdot/</guid>
+      <description>HEY ! Me revoilà pour un post sans Le LiveCoding c&amp;rsquo;est quoi ? J&amp;rsquo;ai découvert le LiveCoding aux universités d&amp;rsquo;hiver du Bib, en février, grâce à un atelier d&amp;rsquo;initiation à la musique algorythmique où j&amp;rsquo;ai découvert SuperCollider et FoxDot et un autre de LiveCoding collaboratif.
+Du coup le principe c&amp;rsquo;est de coder de la musique voilà tout est dit au revoir fin du post lol non non je déconne j&amp;rsquo;ai fait deux ateliers, un avec Nina et l&amp;rsquo;autre Ellie, faudra que je retrouve les noms et liens, bon on attaque !</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,22 +7,112 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 05 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>comeback</title>
-      <link>https://cecilesauder.netlify.com/tags/comeback/</link>
-      <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
+      <title>foxdot</title>
+      <link>https://cecilesauder.netlify.com/tags/foxdot/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cecilesauder.netlify.com/tags/comeback/</guid>
+      <guid>https://cecilesauder.netlify.com/tags/foxdot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackerspace</title>
+      <link>https://cecilesauder.netlify.com/tags/hackerspace/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/hackerspace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>livecoding</title>
+      <link>https://cecilesauder.netlify.com/tags/livecoding/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/livecoding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://cecilesauder.netlify.com/tags/python/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>supercolider</title>
+      <link>https://cecilesauder.netlify.com/tags/supercolider/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/supercolider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidytext</title>
       <link>https://cecilesauder.netlify.com/tags/tidytext/</link>
-      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://cecilesauder.netlify.com/tags/tidytext/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordcloud2</title>
+      <link>https://cecilesauder.netlify.com/tags/wordcloud2/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/wordcloud2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magick</title>
+      <link>https://cecilesauder.netlify.com/tags/magick/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/magick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rtweet</title>
+      <link>https://cecilesauder.netlify.com/tags/rtweet/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/rtweet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyverse</title>
+      <link>https://cecilesauder.netlify.com/tags/tidyverse/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>https://cecilesauder.netlify.com/tags/blogdown/</link>
+      <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://cecilesauder.netlify.com/tags/github/</link>
+      <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/tags/github/</guid>
       <description></description>
     </item>
     
@@ -45,15 +135,6 @@
     </item>
     
     <item>
-      <title>tidyverse</title>
-      <link>https://cecilesauder.netlify.com/tags/tidyverse/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://cecilesauder.netlify.com/tags/tidyverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>xaringan</title>
       <link>https://cecilesauder.netlify.com/tags/xaringan/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
@@ -68,24 +149,6 @@
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://cecilesauder.netlify.com/tags/ggplot2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>magick</title>
-      <link>https://cecilesauder.netlify.com/tags/magick/</link>
-      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cecilesauder.netlify.com/tags/magick/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rtweet</title>
-      <link>https://cecilesauder.netlify.com/tags/rtweet/</link>
-      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cecilesauder.netlify.com/tags/rtweet/</guid>
       <description></description>
     </item>
     
