@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 12 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cecilesauder.netlify.com/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Gazette, mon petit canard : Concours</title>
+      <link>https://cecilesauder.netlify.com/post/2022-11-25-la-gazette-mon-petit-canard-concours/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cecilesauder.netlify.com/post/2022-11-25-la-gazette-mon-petit-canard-concours/</guid>
+      <description>Concours de la Gazette de Montpellier Le jeu-concours : racontez-nous, sur le thème “La Gazette, mon petit canard”, une histoire ou anecdote que vous inspire La Gazette : texte (court), poème, chanson, vidéo, rap, histoire drôle, tableau, sculpture…
+Laissez parler votre créativité. Les créations les plus originales, amusantes, pertinentes, émouvantes, acides, délirantes,… gagneront l’un des 35 lots. Surprenez-nous !
+Envoyez votre production (texte, vidéo, photo, etc.) par mail à jb.</description>
+    </item>
+    
     <item>
       <title>R-Ladies Meetup</title>
       <link>https://cecilesauder.netlify.com/post/2019-02-12-r-ladies-meetup/</link>
@@ -23,20 +34,20 @@ And I&amp;rsquo;m going to write a post very soon with some useful tips for maki
     
     <item>
       <title>AmstRday&#39;s tweets</title>
-      <link>https://cecilesauder.netlify.com/post/amstrdays-s-tweets/</link>
+      <link>https://cecilesauder.netlify.com/post/2018-11-18-amstrday-s-tweets/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://cecilesauder.netlify.com/post/amstrdays-s-tweets/</guid>
+      <guid>https://cecilesauder.netlify.com/post/2018-11-18-amstrday-s-tweets/</guid>
       <description>These lines of code have been lying around in a file for more than 2 months. I wrote them after SatRdays Amsterdam in September.
 Packages installation library(tidyverse) library(rtweet) library(knitr) library(kableExtra) library(ggiraph) library(magick) library(tidytext) library(wordcloud) library(widyr) library(igraph) library(ggraph) library(ggmap) library(maps) library(plotly) Scraping the tweets # rt_AmsteRday &amp;lt;- search_tweets( # &amp;#34;#AmsteRday&amp;#34;, n = 2, include_rts = FALSE # ) # rt &amp;lt;- rt_AmsteRday # # vect &amp;lt;- c(&amp;#34;#AmstRday&amp;#34;, &amp;#34;#satRday&amp;#34;, &amp;#34;#satRdays&amp;#34;, &amp;#34;#satRdayAMS&amp;#34;, &amp;#34;#satRdaysAMS&amp;#34;) # # for( vec in vect){ # # rt_vec &amp;lt;- search_tweets( # vec, n = 18000, include_rts = FALSE # ) # rt &amp;lt;- bind_rows(rt, rt_vec) # } # # # rt &amp;lt;- rt %&amp;gt;% # unique() # # saveRDS(rt, &amp;#34;conttweets.</description>
     </item>
     
     <item>
       <title>Playing with dplyr5000 - Part 1</title>
-      <link>https://cecilesauder.netlify.com/post/playing-with-dplyr5000-part-1/</link>
+      <link>https://cecilesauder.netlify.com/post/2018-10-21-playing-with-dplyr5000-part-1/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://cecilesauder.netlify.com/post/playing-with-dplyr5000-part-1/</guid>
+      <guid>https://cecilesauder.netlify.com/post/2018-10-21-playing-with-dplyr5000-part-1/</guid>
       <description>dplyr5000 is a data package with the 5000 first travis builds of dplyr. I would like to make a beautiful barplot with these data, inspired by this tweet from Mara Averick.
 📷 Further adventures in ggplot2 x-axis image labels…
 &amp;quot;Images as x-axis labels (updated)&amp;quot; ✏️ @carroll_jono
@@ -46,10 +57,10 @@ Packages installation library(tidyverse) library(rtweet) library(knitr) library(
     
     <item>
       <title>Making an animated ggplot</title>
-      <link>https://cecilesauder.netlify.com/post/making-an-animated-ggplot/</link>
+      <link>https://cecilesauder.netlify.com/post/2018-10-14-making-an-animated-ggplot/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://cecilesauder.netlify.com/post/making-an-animated-ggplot/</guid>
+      <guid>https://cecilesauder.netlify.com/post/2018-10-14-making-an-animated-ggplot/</guid>
       <description>I decide to talk about how I make my awesome blog banner in this first post. 😄
 Why this banner ? It&amp;rsquo;s a french wordplay with my family name Sauder =&amp;gt; Saut d&amp;rsquo;R (R jump in english). That&amp;rsquo;s why I decided to make a banner with the R-logo jumping on some (so cool) stickers. I choose stickers of packages that I use to do this animated ggplot.
 Which packages ? library(tidyverse) # install.</description>
